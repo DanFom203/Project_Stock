@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/main" />
+
+    <item
+        android:id="@+id/setOffFragment"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="@string/set_off" />
+
+    <item
+        android:id="@+id/examFragment"
+        android:icon="@drawable/baseline_history_edu_24"
+        android:title="@string/exam" />
+
+</menu>
