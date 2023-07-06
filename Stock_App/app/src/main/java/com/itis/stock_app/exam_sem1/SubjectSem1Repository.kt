@@ -59,7 +59,7 @@ object SubjectSem1Repository {
                     "1.Числовой ряд - определение и свойства. " +
                     "Необходимый признак сходимости числового ряда. Расходимость гармонического ряда.\n" +
                     "2. y''+5y'+6y=x^2"),
-        SubjectSem1(3, "Информатика и программирование",
+        SubjectSem1(2, "Информатика и программирование",
             "https://www.oxfordcc.co.uk/files/shutterstock_230705509-scaled.jpg",
             "Абрамский Михаил Михайлович",
             "https://shelly.kpfu.ru/e-ksu/docs/F1980796675/EZ4B8235___kopiya.JPG?rnd=3343",
