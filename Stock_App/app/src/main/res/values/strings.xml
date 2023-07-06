@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">MyApp</string>
-    <string name="set_off_screen">Set-off Screen</string>
-    <string name="main_screen">Main Screen</string>
-    <string name="exam_screen">Exam Screen</string>
-    <string name="main">Main</string>
-    <string name="exam">Exam</string>
-    <string name="set_off">Set-off</string>
+    <string name="set_off_screen">Страница с зачетами</string>
+    <string name="main_screen">Главная страница</string>
+    <string name="exam_screen">Страница с экзаменами</string>
+    <string name="main">Главная</string>
+    <string name="exam">Экзамены</string>
+    <string name="set_off">Зачеты</string>
+    <string name="btnSem1Text">1 семестр</string>
+    <string name="btnSem2Text">2 семестр</string>
+    <string name="tvDef_sem2Text">Default</string>
+    <string name="btnExitText">Выйти</string>
+    <string name="tvTaskTitle">Примеры заданий</string>
+    <string name="defCount">0</string>
 </resources>
