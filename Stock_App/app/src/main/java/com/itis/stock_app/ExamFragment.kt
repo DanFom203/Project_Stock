@@ -14,7 +14,7 @@ class ExamFragment : Fragment(R.layout.fragment_exam) {
         binding = FragmentExamBinding.bind(view)
 
         binding?.run {
-            btn2sem.setOnClickListener{
+            btn1sem.setOnClickListener{
                 findNavController().navigate(R.id.action_examFragment_to_examSem1Fragment)
             }
         }
