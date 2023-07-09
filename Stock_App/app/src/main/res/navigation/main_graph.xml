@@ -31,6 +31,28 @@
         android:name="com.itis.stock_app.ExamFragment"
         android:label="fragment_exam"
         tools:layout="@layout/fragment_exam" >
+        <action
+            android:id="@+id/action_examFragment_to_examSem1Fragment"
+            app:destination="@id/examSem1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/examSem1Fragment"
+        android:name="com.itis.stock_app.exam_sem1.ExamSem1Fragment"
+        android:label="ExamSem1Fragment" >
+        <action
+            android:id="@+id/action_examSem1Fragment_to_examFragment"
+            app:destination="@id/examFragment" />
+        <action
+            android:id="@+id/action_examSem1Fragment_to_subjectSem1Fragment"
+            app:destination="@id/subjectSem1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subjectSem1Fragment"
+        android:name="com.itis.stock_app.exam_sem1.SubjectSem1Fragment"
+        android:label="SubjectSem2Fragment" >
+        <action
+            android:id="@+id/action_subjectSem1Fragment_to_examSem1Fragment"
+            app:destination="@id/examSem1Fragment" />
     </fragment>
     <fragment
         android:id="@+id/setOffInformationFragment"

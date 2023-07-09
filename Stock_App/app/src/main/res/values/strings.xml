@@ -14,7 +14,6 @@
     <string name="tv_advice">Совет</string>
     <string name="tvTaskTitle">Примеры заданий</string>
     <string name="tvTaskText">Условия заданий</string>
-    <string name="defCount">Количество</string>
     <string name="tvInformationAboutApp">Информация о приложении</string>
     <string name="tvCreators">Создатели приложения</string>
     <string name="tvApplicationInfo">Приложение создано для помощи первокурсникам Казанского (Приволжского) Федерального Университета, обучающихся в институте информационных технологий и интеллектуальных систем. Оно перечисляет все экзамены и зачеты, встречающиеся на 1 курсе обучения, а также предоставляет советы по их успешной сдаче. Вот несколько причин, почему данное приложение является полезным:</string>
@@ -26,4 +25,9 @@
     <string name="tvCreatorName2">2. Рожнов Савелий Иванович</string>
     <string name="tvCreatorName3">3. Фомин Даниил Сергеевич</string>
     <string name="tvWishes">Мы желаем всем первокурсникам успешной сдачи зачётов и экзаменов и надеемся, что наше приложение сможет помочь им достичь лучших результатов.</string>
+    <string name="btnSem1Text">1 семестр</string>
+    <string name="btnSem2Text">2 семестр</string>
+    <string name="tvDef_sem2Text">Default</string>
+    <string name="defCount">0</string>
+
 </resources>
