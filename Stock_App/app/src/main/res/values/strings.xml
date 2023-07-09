@@ -1,14 +1,17 @@
 <resources>
-    <string name="app_name">StockApp</string>
+    <string name="app_name">ITIS help</string>
     <string name="set_off_screen">Страница с зачетами</string>
     <string name="main_screen">Главная страница</string>
     <string name="exam_screen">Страница с экзаменами</string>
     <string name="main">Главная</string>
     <string name="exam">Экзамены</string>
     <string name="set_off">Зачеты</string>
-    <string name="sem1">1 семестр</string>
-    <string name="sem2">2 семестр</string>
+    <string name="btnSem1Text">1 семестр</string>
+    <string name="btnSem2Text">2 семестр</string>
+    <string name="tvDef_sem2Text">Default</string>
     <string name="btnExitText">Выйти</string>
+    <string name="tvTaskTitle">Примеры заданий</string>
+    <string name="defCount">0</string>
     <string name="tvSetOffDiff">Сложность</string>
     <string name="tvSetOffProfessorName">Имя преподавателя</string>
     <string name="tv_advice">Совет</string>
@@ -25,9 +28,4 @@
     <string name="tvCreatorName2">2. Рожнов Савелий Иванович</string>
     <string name="tvCreatorName3">3. Фомин Даниил Сергеевич</string>
     <string name="tvWishes">Мы желаем всем первокурсникам успешной сдачи зачётов и экзаменов и надеемся, что наше приложение сможет помочь им достичь лучших результатов.</string>
-    <string name="btnSem1Text">1 семестр</string>
-    <string name="btnSem2Text">2 семестр</string>
-    <string name="tvDef_sem2Text">Default</string>
-    <string name="defCount">0</string>
-
 </resources>
