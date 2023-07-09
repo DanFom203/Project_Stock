@@ -15,12 +15,12 @@ class ExamFragment : Fragment(R.layout.fragment_exam) {
 
         binding?.run {
 
-            btn2sem.setOnClickListener{
+            btn2sem.setOnClickListener {
                 findNavController().navigate(R.id.action_examFragment_to_examSem2Fragment)
+            }
 
-            btn1sem.setOnClickListener{
+            btn1sem.setOnClickListener {
                 findNavController().navigate(R.id.action_examFragment_to_examSem1Fragment)
-
             }
         }
     }

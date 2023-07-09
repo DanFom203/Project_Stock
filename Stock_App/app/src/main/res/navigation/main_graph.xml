@@ -34,6 +34,9 @@
         <action
             android:id="@+id/action_examFragment_to_examSem2Fragment"
             app:destination="@id/examSem2Fragment" />
+        <action
+            android:id="@+id/action_examFragment_to_examSem1Fragment"
+            app:destination="@id/examSem1Fragment"/>
     </fragment>
     <fragment
         android:id="@+id/examSem2Fragment"
@@ -52,9 +55,7 @@
         android:label="SubjectSem2Fragment" >
         <action
             android:id="@+id/action_subjectSem2Fragment_to_examSem2Fragment"
-            app:destination="@id/examSem2Fragment" />
-            android:id="@+id/action_examFragment_to_examSem1Fragment"
-            app:destination="@id/examSem1Fragment" />
+            app:destination="@id/examSem2Fragment"/>
     </fragment>
     <fragment
         android:id="@+id/examSem1Fragment"
