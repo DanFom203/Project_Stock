@@ -7,10 +7,15 @@ import androidx.core.content.edit
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.bumptech.glide.request.RequestOptions
 import com.itis.stock_app.R
 import com.itis.stock_app.databinding.FragmentSubjectSem2Binding
 
 class SubjectSem2Fragment : Fragment(R.layout.fragment_subject_sem2) {
+    private val options: RequestOptions = RequestOptions
+        .diskCacheStrategyOf(DiskCacheStrategy.ALL)
+
     private var countLike = 0
     private var countDislike = 0
 
@@ -44,6 +49,9 @@ class SubjectSem2Fragment : Fragment(R.layout.fragment_subject_sem2) {
             tvDislikes.text = countDislike.toString()
             Glide.with(binding.root)
                 .load(subject.teacherUrl)
+                .placeholder(R.drawable.loading)
+                .error(R.drawable.error)
+                .apply(options)
                 .into(imgTeacher)
 
             btnLike.setOnClickListener {

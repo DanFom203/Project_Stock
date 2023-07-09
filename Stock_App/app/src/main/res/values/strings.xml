@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">ITIS help</string>
-    <string name="set_off_screen">Страница с зачетами</string>
+    <string name="set_off_screen">Зачеты</string>
     <string name="main_screen">Главная страница</string>
     <string name="exam_screen">Страница с экзаменами</string>
     <string name="main">Главная</string>
     <string name="exam">Экзамены</string>
     <string name="set_off">Зачеты</string>
+    <string name="tvExam1">Экзамены 1 семестр</string>
+    <string name="tvExam2">Экзамены 2 семестр</string>
     <string name="btnSem1Text">1 семестр</string>
     <string name="btnSem2Text">2 семестр</string>
     <string name="tvDef_sem2Text">Default</string>
