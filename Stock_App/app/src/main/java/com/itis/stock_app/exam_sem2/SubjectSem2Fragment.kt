@@ -82,8 +82,8 @@ class SubjectSem2Fragment : Fragment(R.layout.fragment_subject_sem2) {
 
     companion object {
         private const val ARG_ID = "ARG_ID"
-        private const val ARG_LIKE_COUNT = "ARG_LIKE_COUNT"
-        private const val ARG_DISLIKE_COUNT = "ARG_DISLIKE_COUNT"
+        private const val ARG_LIKE_COUNT = "ARG_LIKE_COUNT_SEM2"
+        private const val ARG_DISLIKE_COUNT = "ARG_DISLIKE_COUNT_SEM2"
 
         fun createBundle(idSubj: Int): Bundle {
             val bundle = Bundle()
