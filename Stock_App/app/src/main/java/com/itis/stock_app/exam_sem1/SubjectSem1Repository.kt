@@ -6,7 +6,7 @@ object SubjectSem1Repository {
             "https://lms.kantiana.ru/pluginfile.php/330756/mod_book/chapter/10416/Page16.jpg",
             "Арсланов Марат Мирзаевич",
             "https://shelly.kpfu.ru/e-ksu/docs/F248567701/Arslanov_2.jpg?rnd=2076",
-            "MEDIUM OR AS LUCKY",
+            "MEDIUM OR AS   LUCKY",
             "Даются 2 теоретических вопроса и 1 практическое задание. " +
                     "Заходит 8 человек, дальше по 1 доходите. На написание билетов дается 60 минут." +
                     " Потом Марат Мирзаевич вас вызывает к себе и задает вопросы." +
