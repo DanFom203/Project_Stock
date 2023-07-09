@@ -6,6 +6,10 @@
     <string name="main">Главная</string>
     <string name="exam">Экзамены</string>
     <string name="set_off">Зачеты</string>
-    <string name="sem1">1 семестр</string>
-    <string name="sem2">2 семестр</string>
+    <string name="btnSem1Text">1 семестр</string>
+    <string name="btnSem2Text">2 семестр</string>
+    <string name="tvDef_sem2Text">Default</string>
+    <string name="btnExitText">Выйти</string>
+    <string name="tvTaskTitle">Примеры заданий</string>
+    <string name="defCount">0</string>
 </resources>
