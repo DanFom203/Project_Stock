@@ -7,15 +7,24 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.itis.stock_app.MainFragment"
+        android:name="com.itis.stock_app.main_screen.MainFragment"
         android:label="MainFragment"
         tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_aboutAppFragment"
+            app:destination="@id/aboutAppFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_aboutCreatorsFragment"
+            app:destination="@id/aboutCreatorsFragment" />
     </fragment>
     <fragment
         android:id="@+id/setOffFragment"
-        android:name="com.itis.stock_app.SetOffFragment"
+        android:name="com.itis.stock_app.set_off.SetOffFragment"
         android:label="fragment_set_off"
         tools:layout="@layout/fragment_set_off" >
+        <action
+            android:id="@+id/action_setOffFragment_to_setOffInformationFragment"
+            app:destination="@id/setOffInformationFragment" />
     </fragment>
     <fragment
         android:id="@+id/examFragment"
@@ -44,5 +53,30 @@
         <action
             android:id="@+id/action_subjectSem1Fragment_to_examSem1Fragment"
             app:destination="@id/examSem1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setOffInformationFragment"
+        android:name="com.itis.stock_app.set_off.InformationFragment"
+        android:label="fragment_set_off_info"
+        tools:layout="@layout/fragment_set_off_info" >
+        <action
+            android:id="@+id/action_setOffInformationFragment_to_setOffFragment"
+            app:destination="@id/setOffFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutAppFragment"
+        android:name="com.itis.stock_app.main_screen.AboutAppFragment"
+        android:label="AboutAppFragment" >
+        <action
+            android:id="@+id/action_aboutAppFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutCreatorsFragment"
+        android:name="com.itis.stock_app.main_screen.AboutCreatorsFragment"
+        android:label="AboutCreatorsFragment" >
+        <action
+            android:id="@+id/action_aboutCreatorsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
 </navigation>

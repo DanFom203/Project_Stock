@@ -1,15 +1,33 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">StockApp</string>
     <string name="set_off_screen">Страница с зачетами</string>
     <string name="main_screen">Главная страница</string>
     <string name="exam_screen">Страница с экзаменами</string>
     <string name="main">Главная</string>
     <string name="exam">Экзамены</string>
     <string name="set_off">Зачеты</string>
+    <string name="sem1">1 семестр</string>
+    <string name="sem2">2 семестр</string>
+    <string name="btnExitText">Выйти</string>
+    <string name="tvSetOffDiff">Сложность</string>
+    <string name="tvSetOffProfessorName">Имя преподавателя</string>
+    <string name="tv_advice">Совет</string>
+    <string name="tvTaskTitle">Примеры заданий</string>
+    <string name="tvTaskText">Условия заданий</string>
+    <string name="tvInformationAboutApp">Информация о приложении</string>
+    <string name="tvCreators">Создатели приложения</string>
+    <string name="tvApplicationInfo">Приложение создано для помощи первокурсникам Казанского (Приволжского) Федерального Университета, обучающихся в институте информационных технологий и интеллектуальных систем. Оно перечисляет все экзамены и зачеты, встречающиеся на 1 курсе обучения, а также предоставляет советы по их успешной сдаче. Вот несколько причин, почему данное приложение является полезным:</string>
+    <string name="tvApplicationInfo1">1. ОРГАНИЗАЦИЯ И СТРУКТУРА: Первокурсники часто сталкиваются с необходимостью понять систему экзаменов и зачетов, а также разобраться, как правильно планировать свое время и подготавливаться к сдаче. Приложение предоставляет перечень всех обязательных экзаменов и зачетов, позволяя студентам организовать свою учебную программу и планировать подготовку заранее.</string>
+    <string name="tvApplicationInfo2">2. СОВЕТЫ ДЛЯ УСПЕШНОЙ СДАЧИ: Приложение предлагает студентам советы и рекомендации по успешной подготовке к экзаменам и зачетам. Это включает в себя информацию о материалах, на которые следует обратить особое внимание, практические советы, а также стратегии сдачи экзамена.</string>
+    <string name="tvApplicationInfo3">3. РЕСУРСЫ И МАТЕРИАЛЫ: Приложение предоставляет дополнительные материалы, которые могут помочь студентам в подготовке к экзаменам и зачетам. Это помогает студентам более направленно и углубленно изучать материал.</string>
+    <string name="tvApplicationInfo4">4. ВОЗМОЖНОСТЬ ОЦЕНИТЬ КОНКРЕТНЫЙ ЗАЧЁТ ИЛИ ЭКЗАМЕН: Приложение позволяет положительно или отрицательно оценивать каждый из перечисленных в нём экзаменов или зачетов.</string>
+    <string name="tvCreatorName1">1. Лабенская Марина Евгеньевна</string>
+    <string name="tvCreatorName2">2. Рожнов Савелий Иванович</string>
+    <string name="tvCreatorName3">3. Фомин Даниил Сергеевич</string>
+    <string name="tvWishes">Мы желаем всем первокурсникам успешной сдачи зачётов и экзаменов и надеемся, что наше приложение сможет помочь им достичь лучших результатов.</string>
     <string name="btnSem1Text">1 семестр</string>
     <string name="btnSem2Text">2 семестр</string>
     <string name="tvDef_sem2Text">Default</string>
-    <string name="btnExitText">Выйти</string>
-    <string name="tvTaskTitle">Примеры заданий</string>
     <string name="defCount">0</string>
+
 </resources>
