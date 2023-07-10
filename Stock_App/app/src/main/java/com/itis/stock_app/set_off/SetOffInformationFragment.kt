@@ -93,7 +93,7 @@ class InformationFragment : Fragment(R.layout.fragment_set_off_info) {
         binding?.imgTeacher?.let {
             Glide.with(this)
                 .load(setOff.urlProfessorPicture)
-                .placeholder(R.drawable.loading)
+                .placeholder(R.drawable.load)
                 .error(R.drawable.error)
                 .apply(options)
                 .into(binding!!.imgTeacher)

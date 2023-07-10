@@ -20,7 +20,7 @@ class SubjectSem1Item(
                 tvTitleSem1.text = subjectSem1.name
                 Glide.with(binding.root)
                     .load(subjectSem1.imageUrl)
-                    .placeholder(R.drawable.loading)
+                    .placeholder(R.drawable.load)
                     .error(R.drawable.error)
                     .apply(options)
                     .into(ivSubjectSem1Image)

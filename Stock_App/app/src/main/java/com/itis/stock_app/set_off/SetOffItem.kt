@@ -22,7 +22,7 @@ class SetOffItem(
 
             glide
                 .load(setOff.urlSetOffPicture)
-                .placeholder(R.drawable.loading)
+                .placeholder(R.drawable.load)
                 .error(R.drawable.error)
                 .apply(options)
                 .into(ivImage)

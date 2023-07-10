@@ -21,7 +21,7 @@ class SubjectSem2Item(
                 tvTitleSem2.text = subjectSem2.name
                 Glide.with(binding.root)
                     .load(subjectSem2.imageUrl)
-                    .placeholder(R.drawable.loading)
+                    .placeholder(R.drawable.load)
                     .error(R.drawable.error)
                     .apply(options)
                     .into(ivSubjectSem2Image)

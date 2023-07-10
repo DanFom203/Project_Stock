@@ -50,7 +50,7 @@ class SubjectSem1Fragment : Fragment(R.layout.fragment_subject_sem1) {
             tvDislikes.text = countDislike.toString()
             Glide.with(binding.root)
                 .load(subject.teacherUrl)
-                .placeholder(R.drawable.loading)
+                .placeholder(R.drawable.load)
                 .error(R.drawable.error)
                 .apply(options)
                 .into(imgTeacher)
