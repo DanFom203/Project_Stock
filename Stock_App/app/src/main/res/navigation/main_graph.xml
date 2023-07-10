@@ -101,4 +101,20 @@
             android:id="@+id/action_aboutCreatorsFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.itis.stock_app.NotesFragment"
+        android:label="NotesFragment" >
+        <action
+            android:id="@+id/action_notesFragment_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="com.itis.stock_app.AddNoteFragment"
+        android:label="AddNoteFragment" >
+        <action
+            android:id="@+id/action_addNoteFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
 </navigation>

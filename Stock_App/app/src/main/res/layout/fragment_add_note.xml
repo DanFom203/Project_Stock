@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_note"
+        android:textSize="25sp"
+        android:elevation="8dp"
+        android:background="@drawable/round_style"
+        android:fontFamily="@font/ibm_plex_mono_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:elevation="3dp"
+            android:hint="@string/ed_title"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/et_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:hint="@string/ed_desc"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:lines="15"
+            android:gravity="top"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ibm_plex_mono_medium"
+        android:insetLeft="50dp"
+        android:insetRight="50dp"
+        android:text="@string/btnSaveNoteText" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ibm_plex_mono_medium"
+        android:layout_margin="10dp"
+        android:insetLeft="40dp"
+        android:insetRight="40dp"
+        android:text="@string/btnExitText" />
+
+</LinearLayout>
