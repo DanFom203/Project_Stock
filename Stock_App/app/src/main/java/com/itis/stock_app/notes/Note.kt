@@ -1,4 +1,4 @@
-package com.itis.stock_app
+package com.itis.stock_app.notes
 
 import io.realm.RealmObject
 

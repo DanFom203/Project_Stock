@@ -1,12 +1,11 @@
-package com.itis.stock_app
+package com.itis.stock_app.notes
 
-import android.content.Context
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import androidx.core.content.edit
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.itis.stock_app.R
 import com.itis.stock_app.databinding.FragmentAddNoteBinding
 import io.realm.Realm
 

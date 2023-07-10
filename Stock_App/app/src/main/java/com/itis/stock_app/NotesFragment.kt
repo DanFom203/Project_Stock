@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.itis.stock_app.databinding.FragmentNotesBinding
+import com.itis.stock_app.notes.Note
+import com.itis.stock_app.notes.NoteAdapter
 import io.realm.Realm
 import io.realm.RealmChangeListener
 import io.realm.RealmResults

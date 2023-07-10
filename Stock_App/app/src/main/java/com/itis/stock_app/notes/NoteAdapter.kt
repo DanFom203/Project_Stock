@@ -1,4 +1,4 @@
-package com.itis.stock_app
+package com.itis.stock_app.notes
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.itis.stock_app.R
 import com.itis.stock_app.databinding.ItemNoteBinding
 import io.realm.Realm
 import io.realm.RealmResults

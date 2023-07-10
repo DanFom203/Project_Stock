@@ -111,7 +111,7 @@
     </fragment>
     <fragment
         android:id="@+id/addNoteFragment"
-        android:name="com.itis.stock_app.AddNoteFragment"
+        android:name="com.itis.stock_app.notes.AddNoteFragment"
         android:label="AddNoteFragment" >
         <action
             android:id="@+id/action_addNoteFragment_to_notesFragment"
