@@ -3,6 +3,11 @@
     <string name="set_off_screen">Зачеты</string>
     <string name="main_screen">Главная страница</string>
     <string name="exam_screen">Страница с экзаменами</string>
+    <string name="notes">Заметки</string>
+    <string name="ed_title">Загаловок</string>
+    <string name="ed_desc">Описание</string>
+    <string name="btnSaveNoteText">Сохранить</string>
+    <string name="add_note">Добавить заметку</string>
     <string name="main">Главная</string>
     <string name="exam">Экзамены</string>
     <string name="set_off">Зачеты</string>
@@ -17,6 +22,7 @@
     <string name="tvSetOffDiff">Сложность</string>
     <string name="tvSetOffProfessorName">Имя преподавателя</string>
     <string name="tv_advice">Совет</string>
+    <string name="popMenuDeleteText">Удалить</string>
     <string name="tvTaskText">Условия заданий</string>
     <string name="tvInformationAboutApp">Информация о приложении</string>
     <string name="tvCreators">Создатели приложения</string>

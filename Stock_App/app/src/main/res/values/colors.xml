@@ -12,4 +12,5 @@
     <color name="primary_dark_nigth">#024C97</color>
     <color name="divider">#C4333333</color>
     <color name="divider_object_sem1">#FF000000</color>
+    <color name="grey">#837979</color>
 </resources>
